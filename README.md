@@ -12,9 +12,6 @@
 ### [▶ Open the live app](https://real-estate-investment-advisor-mn6qws3xyo8wytcttrg8ci.streamlit.app/)
 
 </div>
-
-![Check a property](docs/screenshots/01_check_property.png)
-
 ## Overview
 
 Buying property is a big decision, and most buyers have little way to judge long-term returns. This project turns a dataset of **250,000 Indian property listings** into two models:
