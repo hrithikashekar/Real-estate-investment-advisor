@@ -1,0 +1,7 @@
+# Extra packages needed only to re-run EDA and training
+-r requirements.txt
+matplotlib>=3.8
+seaborn>=0.13
+mlflow-skinny>=2.12
+sqlalchemy
+alembic

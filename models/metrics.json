@@ -1,0 +1,90 @@
+{
+  "classification": {
+    "LogisticRegression": {
+      "accuracy": 0.8582,
+      "precision": 0.7616,
+      "recall": 0.7173,
+      "f1": 0.7388,
+      "roc_auc": 0.9312,
+      "train_seconds": 1.9175,
+      "confusion_matrix": [
+        [
+          32886,
+          3138
+        ],
+        [
+          3951,
+          10025
+        ]
+      ]
+    },
+    "RandomForest": {
+      "accuracy": 0.8766,
+      "precision": 0.7855,
+      "recall": 0.7682,
+      "f1": 0.7768,
+      "roc_auc": 0.9478,
+      "train_seconds": 23.6377,
+      "confusion_matrix": [
+        [
+          33092,
+          2932
+        ],
+        [
+          3239,
+          10737
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.8801,
+      "precision": 0.7886,
+      "recall": 0.7803,
+      "f1": 0.7844,
+      "roc_auc": 0.9503,
+      "train_seconds": 13.1635,
+      "confusion_matrix": [
+        [
+          33100,
+          2924
+        ],
+        [
+          3070,
+          10906
+        ]
+      ]
+    }
+  },
+  "regression": {
+    "LinearRegression": {
+      "rmse": 23.5935,
+      "mae": 18.1106,
+      "r2": 0.983,
+      "train_seconds": 2.2736
+    },
+    "RandomForest": {
+      "rmse": 19.6464,
+      "mae": 14.0082,
+      "r2": 0.9882,
+      "train_seconds": 21.6721
+    },
+    "XGBoost": {
+      "rmse": 18.482,
+      "mae": 13.0005,
+      "r2": 0.9896,
+      "train_seconds": 15.1214
+    }
+  },
+  "best": {
+    "classifier": "XGBoost",
+    "regressor": "XGBoost",
+    "residual_p10": -21.68159889386002,
+    "residual_p90": 21.531722210102267
+  },
+  "data": {
+    "rows": 250000,
+    "train_rows": 200000,
+    "test_rows": 50000,
+    "positive_rate": 0.279528
+  }
+}
